@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+}
+
+.board {
+  border: solid white;
+  transform: rotate(90deg);
+}
+
+.player {
+  z-index: 99;
+  display: grid;
+  width: 50px;
+}
+.player:hover {
+  color: #ed1212;
+  cursor: pointer;
+}
+.playerName {
+  width: 48px;
+  border: solid 1px blue;
+  text-align: center;
+}
+.draggable {
+  width: 50px;
+}
